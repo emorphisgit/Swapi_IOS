@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.version          = '1.0.0'
   s.summary          = 'SWAPIAPI'
   s.description      = <<-DESC
-A new CustomerGlu.
+A new SWAPIAPI.
                        DESC
   s.homepage         = 'https://github.com/emorphisgit/Swapi_IOS'
   s.license          = { :type => 'Apache License, Version 1.0', :text => <<-LICENSE
@@ -26,11 +26,8 @@ A new CustomerGlu.
   }
   s.author           = { 'Swapi_IOS' => 'nishant.mahajan@emorphis.com' }
   s.source           = { :git => 'https://github.com/emorphisgit/Swapi_IOS', :tag => 'v1.0.0'}
-  s.source_files = 'Sources/**/*.*'
-  s.exclude_files = 'Tests/**/*.*'
   s.platform = :ios, '9.0'
 
-  # Flutter.framework does not contain a i386 slice.
   # s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386' }
   s.ios.deployment_target = '11.0'
   s.swift_version = '5.0'
