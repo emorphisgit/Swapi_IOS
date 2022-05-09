@@ -3,9 +3,9 @@
 # Run `pod lib lint testsdk.podspec` to validate before publishing.
 #
 Pod::Spec.new do |s|
-  s.name             = 'SWAPIAPI'
+  s.name             = 'emorphisgit'
   s.version          = '1.0.0'
-  s.summary          = 'SWAPIAPI'
+  s.summary          = 'emorphisgit'
   s.description      = <<-DESC
 A new SWAPIAPI.
                        DESC
