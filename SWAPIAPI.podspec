@@ -26,6 +26,8 @@ A new SWAPIAPI.
   }
   s.author           = { 'Swapi_IOS' => 'nishant.mahajan@emorphis.com' }
   s.source           = { :git => 'https://github.com/emorphisgit/Swapi_IOS', :tag => 'v1.0.0'}
+  s.source_files = 'SWAPIAPI/*.*'
+
   s.platform = :ios, '9.0'
 
   # s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386' }
