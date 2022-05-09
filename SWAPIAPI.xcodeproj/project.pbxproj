@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82B40B3D2823C60300FBA7BB /* SWAPIAPI.docc in Sources */ = {isa = PBXBuildFile; fileRef = 82B40B3C2823C60300FBA7BB /* SWAPIAPI.docc */; };
+		82B40B3E2823C60300FBA7BB /* SWAPIAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 82B40B3B2823C60300FBA7BB /* SWAPIAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82B40B462823C73100FBA7BB /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B40B452823C73100FBA7BB /* APIManager.swift */; };
+		82B40B482823C9A700FBA7BB /* ApplicationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B40B472823C9A700FBA7BB /* ApplicationManager.swift */; };
+		82B40B4A2823CA4500FBA7BB /* ExtensionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B40B492823CA4500FBA7BB /* ExtensionManager.swift */; };
+		82B40B502823CE8D00FBA7BB /* PlanetResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B40B4E2823CE8D00FBA7BB /* PlanetResult.swift */; };
+		82B40B512823CE8D00FBA7BB /* PlanetsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B40B4F2823CE8D00FBA7BB /* PlanetsModel.swift */; };
+		82B40BA12823DD8A00FBA7BB /* SwapiApiCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B40BA02823DD8900FBA7BB /* SwapiApiCall.swift */; };
+		82B40BC82824049800FBA7BB /* PeopleResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B40BC62824049800FBA7BB /* PeopleResult.swift */; };
+		82B40BC92824049800FBA7BB /* PeopleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B40BC72824049800FBA7BB /* PeopleModel.swift */; };
+		82B40BCC2824085C00FBA7BB /* FilmsResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B40BCA2824085B00FBA7BB /* FilmsResult.swift */; };
+		82B40BCD2824085C00FBA7BB /* FilmsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B40BCB2824085C00FBA7BB /* FilmsModel.swift */; };
+		82B40BD028240B4200FBA7BB /* StarshipModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B40BCE28240B4200FBA7BB /* StarshipModel.swift */; };
+		82B40BD128240B4200FBA7BB /* StarshipResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B40BCF28240B4200FBA7BB /* StarshipResult.swift */; };
+		82FEE7902824E3BC001DE35B /* VehiclesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FEE78E2824E3BC001DE35B /* VehiclesModel.swift */; };
+		82FEE7912824E3BC001DE35B /* VehicleResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FEE78F2824E3BC001DE35B /* VehicleResult.swift */; };
+		82FEE7942824E702001DE35B /* SpecieResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FEE7922824E702001DE35B /* SpecieResult.swift */; };
+		82FEE7952824E702001DE35B /* SpeciesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FEE7932824E702001DE35B /* SpeciesModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		82B40B382823C60300FBA7BB /* SWAPIAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SWAPIAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82B40B3B2823C60300FBA7BB /* SWAPIAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWAPIAPI.h; sourceTree = "<group>"; };
+		82B40B3C2823C60300FBA7BB /* SWAPIAPI.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SWAPIAPI.docc; sourceTree = "<group>"; };
+		82B40B452823C73100FBA7BB /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		82B40B472823C9A700FBA7BB /* ApplicationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationManager.swift; sourceTree = "<group>"; };
+		82B40B492823CA4500FBA7BB /* ExtensionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionManager.swift; sourceTree = "<group>"; };
+		82B40B4E2823CE8D00FBA7BB /* PlanetResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetResult.swift; sourceTree = "<group>"; };
+		82B40B4F2823CE8D00FBA7BB /* PlanetsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetsModel.swift; sourceTree = "<group>"; };
+		82B40BA02823DD8900FBA7BB /* SwapiApiCall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwapiApiCall.swift; sourceTree = "<group>"; };
+		82B40BC62824049800FBA7BB /* PeopleResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleResult.swift; sourceTree = "<group>"; };
+		82B40BC72824049800FBA7BB /* PeopleModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleModel.swift; sourceTree = "<group>"; };
+		82B40BCA2824085B00FBA7BB /* FilmsResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilmsResult.swift; sourceTree = "<group>"; };
+		82B40BCB2824085C00FBA7BB /* FilmsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilmsModel.swift; sourceTree = "<group>"; };
+		82B40BCE28240B4200FBA7BB /* StarshipModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarshipModel.swift; sourceTree = "<group>"; };
+		82B40BCF28240B4200FBA7BB /* StarshipResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarshipResult.swift; sourceTree = "<group>"; };
+		82FEE78E2824E3BC001DE35B /* VehiclesModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VehiclesModel.swift; sourceTree = "<group>"; };
+		82FEE78F2824E3BC001DE35B /* VehicleResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VehicleResult.swift; sourceTree = "<group>"; };
+		82FEE7922824E702001DE35B /* SpecieResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecieResult.swift; sourceTree = "<group>"; };
+		82FEE7932824E702001DE35B /* SpeciesModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeciesModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82B40B352823C60300FBA7BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82B40B2E2823C60300FBA7BB = {
+			isa = PBXGroup;
+			children = (
+				82B40B3A2823C60300FBA7BB /* SWAPIAPI */,
+				82B40B392823C60300FBA7BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82B40B392823C60300FBA7BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82B40B382823C60300FBA7BB /* SWAPIAPI.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82B40B3A2823C60300FBA7BB /* SWAPIAPI */ = {
+			isa = PBXGroup;
+			children = (
+				82B40BA02823DD8900FBA7BB /* SwapiApiCall.swift */,
+				82B40B4B2823CDBF00FBA7BB /* Models */,
+				82B40B442823C6FD00FBA7BB /* Manager */,
+				82B40B3B2823C60300FBA7BB /* SWAPIAPI.h */,
+				82B40B3C2823C60300FBA7BB /* SWAPIAPI.docc */,
+			);
+			path = SWAPIAPI;
+			sourceTree = "<group>";
+		};
+		82B40B442823C6FD00FBA7BB /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				82B40B452823C73100FBA7BB /* APIManager.swift */,
+				82B40B472823C9A700FBA7BB /* ApplicationManager.swift */,
+				82B40B492823CA4500FBA7BB /* ExtensionManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		82B40B4B2823CDBF00FBA7BB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				82FEE7922824E702001DE35B /* SpecieResult.swift */,
+				82FEE7932824E702001DE35B /* SpeciesModel.swift */,
+				82FEE78F2824E3BC001DE35B /* VehicleResult.swift */,
+				82FEE78E2824E3BC001DE35B /* VehiclesModel.swift */,
+				82B40BCF28240B4200FBA7BB /* StarshipResult.swift */,
+				82B40BCE28240B4200FBA7BB /* StarshipModel.swift */,
+				82B40BCB2824085C00FBA7BB /* FilmsModel.swift */,
+				82B40BCA2824085B00FBA7BB /* FilmsResult.swift */,
+				82B40BC72824049800FBA7BB /* PeopleModel.swift */,
+				82B40BC62824049800FBA7BB /* PeopleResult.swift */,
+				82B40B4F2823CE8D00FBA7BB /* PlanetsModel.swift */,
+				82B40B4E2823CE8D00FBA7BB /* PlanetResult.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		82B40B332823C60300FBA7BB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82B40B3E2823C60300FBA7BB /* SWAPIAPI.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		82B40B372823C60300FBA7BB /* SWAPIAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82B40B412823C60300FBA7BB /* Build configuration list for PBXNativeTarget "SWAPIAPI" */;
+			buildPhases = (
+				82B40B332823C60300FBA7BB /* Headers */,
+				82B40B342823C60300FBA7BB /* Sources */,
+				82B40B352823C60300FBA7BB /* Frameworks */,
+				82B40B362823C60300FBA7BB /* Resources */,
+				82FEE7A428250D83001DE35B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SWAPIAPI;
+			productName = SWAPIAPI;
+			productReference = 82B40B382823C60300FBA7BB /* SWAPIAPI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82B40B2F2823C60300FBA7BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					82B40B372823C60300FBA7BB = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 82B40B322823C60300FBA7BB /* Build configuration list for PBXProject "SWAPIAPI" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82B40B2E2823C60300FBA7BB;
+			productRefGroup = 82B40B392823C60300FBA7BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82B40B372823C60300FBA7BB /* SWAPIAPI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82B40B362823C60300FBA7BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		82FEE7A428250D83001DE35B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 12;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\n#1. After then make a fresh directory directory \n\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n\n# 2. Copy Device(arm64) Framework at fresh universal folder location \ncp -a \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\n\n\n\n#3. Copy Sim(x86_64) Frameworks's \"MyFramework.swiftmodule\" Folder Content & paste it at  Fat(x86_64 + arm64) Frameworks's  \"MyFramework.swiftmodule\" folder.\n\nSIMULATOR_SWIFT_MODULES_DIR=\"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework/Modules/${PROJECT_NAME}.swiftmodule/.\"\nif [ -d \"${SIMULATOR_SWIFT_MODULES_DIR}\" ]; then\ncp -R \"${SIMULATOR_SWIFT_MODULES_DIR}\" \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/Modules/${PROJECT_NAME}.swiftmodule\"\nfi\n\n\n\n# Step 4. Create universal binary file using lipo and place the combined executable in the copied framework directory\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework/${PROJECT_NAME}\"\n\n\n\n# Step 5. Copy output at Project Directory\ncp -R \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework\" \"${PROJECT_DIR}\"\n\n# Step 6. Open Project Directory\nopen \"${PROJECT_DIR}\"#1. After then make a fresh directory directory \n\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n\n# 2. Copy Device(arm64) Framework at fresh universal folder location \ncp -a \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\n\n\n\n#3. Copy Sim(x86_64) Frameworks's \"MyFramework.swiftmodule\" Folder Content & paste it at  Fat(x86_64 + arm64) Frameworks's  \"MyFramework.swiftmodule\" folder.\n\nSIMULATOR_SWIFT_MODULES_DIR=\"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework/Modules/${PROJECT_NAME}.swiftmodule/.\"\nif [ -d \"${SIMULATOR_SWIFT_MODULES_DIR}\" ]; then\ncp -R \"${SIMULATOR_SWIFT_MODULES_DIR}\" \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/Modules/${PROJECT_NAME}.swiftmodule\"\nfi\n\n\n\n# Step 4. Create universal binary file using lipo and place the combined executable in the copied framework directory\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework/${PROJECT_NAME}\"\n\n\n\n# Step 5. Copy output at Project Directory\ncp -R \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework\" \"${PROJECT_DIR}\"\n\n# Step 6. Open Project Directory\nopen \"${PROJECT_DIR}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82B40B342823C60300FBA7BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82B40B482823C9A700FBA7BB /* ApplicationManager.swift in Sources */,
+				82B40BD128240B4200FBA7BB /* StarshipResult.swift in Sources */,
+				82B40BD028240B4200FBA7BB /* StarshipModel.swift in Sources */,
+				82B40BC92824049800FBA7BB /* PeopleModel.swift in Sources */,
+				82B40B512823CE8D00FBA7BB /* PlanetsModel.swift in Sources */,
+				82B40BA12823DD8A00FBA7BB /* SwapiApiCall.swift in Sources */,
+				82FEE7942824E702001DE35B /* SpecieResult.swift in Sources */,
+				82FEE7912824E3BC001DE35B /* VehicleResult.swift in Sources */,
+				82B40B502823CE8D00FBA7BB /* PlanetResult.swift in Sources */,
+				82B40B4A2823CA4500FBA7BB /* ExtensionManager.swift in Sources */,
+				82B40BCD2824085C00FBA7BB /* FilmsModel.swift in Sources */,
+				82B40BCC2824085C00FBA7BB /* FilmsResult.swift in Sources */,
+				82FEE7952824E702001DE35B /* SpeciesModel.swift in Sources */,
+				82B40B462823C73100FBA7BB /* APIManager.swift in Sources */,
+				82B40BC82824049800FBA7BB /* PeopleResult.swift in Sources */,
+				82FEE7902824E3BC001DE35B /* VehiclesModel.swift in Sources */,
+				82B40B3D2823C60300FBA7BB /* SWAPIAPI.docc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		82B40B3F2823C60300FBA7BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		82B40B402823C60300FBA7BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		82B40B422823C60300FBA7BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8N6KRZQRXX;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = Emorphis.SWAPIAPI;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82B40B432823C60300FBA7BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8N6KRZQRXX;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = Emorphis.SWAPIAPI;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82B40B322823C60300FBA7BB /* Build configuration list for PBXProject "SWAPIAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82B40B3F2823C60300FBA7BB /* Debug */,
+				82B40B402823C60300FBA7BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82B40B412823C60300FBA7BB /* Build configuration list for PBXNativeTarget "SWAPIAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82B40B422823C60300FBA7BB /* Debug */,
+				82B40B432823C60300FBA7BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82B40B2F2823C60300FBA7BB /* Project object */;
+}
