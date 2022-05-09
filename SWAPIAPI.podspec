@@ -24,8 +24,8 @@ A new CustomerGlu.
     limitations under the License.
     LICENSE
   }
-  s.author           = { 'SWAPIAPI' => 'nishant.mahajan@emorphis.com' }
-  s.source           = { :git => 'https://github.com/emorphisgit/Swapi_IOS.git', :tag => 'v1.0.0'}
+  s.author           = { 'Swapi_IOS' => 'nishant.mahajan@emorphis.com' }
+  s.source           = { :git => 'https://github.com/emorphisgit/Swapi_IOS', :tag => 'v1.0.0'}
   s.source_files = 'Sources/**/*.*'
   s.exclude_files = 'Tests/**/*.*'
   s.platform = :ios, '9.0'
